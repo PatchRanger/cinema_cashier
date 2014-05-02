@@ -1,0 +1,16 @@
+{
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.3.3",
+    "phpunit/phpunit": "~3.7",
+    "phpunit/dbunit": "~1.3",
+    "silex/silex": "~1.0",
+    "taluu/doctrine-orm-provider": "~1.0"
+  },
+  "autoload": {
+    "psr-0": { "CinemaCashier": "src/" }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
